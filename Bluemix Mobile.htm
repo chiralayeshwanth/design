@@ -1,0 +1,646 @@
+﻿<!DOCTYPE HTML>
+<!-- saved from url=(0129)https://new-console.ng.bluemix.net/mobile/projects/ea4dda34-5696-4d96-88ee-9108fdc50761/edit/c41682bf-b9e1-4605-b3ed-9991c2934219 -->
+<!DOCTYPE html PUBLIC "" ""><HTML><HEAD><META content="IE=11.0000" 
+http-equiv="X-UA-Compatible">
+<LINK href="Bluemix%20Mobile_files/header.css" rel="stylesheet">
+<SCRIPT src="Bluemix%20Mobile_files/common-header.js"></SCRIPT>
+
+<SCRIPT type="text/javascript">window.storage.cfUrl = 'ng.bluemix.net';</SCRIPT>
+<LINK href="Bluemix%20Mobile_files/appbuilder.css" rel="stylesheet"><TITLE id="titleElement">Bluemix 
+Mobile</TITLE>
+<SCRIPT type="text/javascript">var _contextRoot = "/mobile/projects/";</SCRIPT>
+<LINK href="/api/v4/img/favicon.png" rel="icon" type="img/png">
+<META charset="utf-8">
+<META name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<META name="apple-mobile-web-app-capable" content="yes"><LINK href="/mobile/projects/public/css/styles.css" 
+rel="stylesheet">
+<SCRIPT src=""></SCRIPT>
+
+<SCRIPT src=""></SCRIPT>
+
+<SCRIPT src=""></SCRIPT>
+
+<SCRIPT>digitalData = {page: {pageInfo: {ibm: {siteID: 'BLUEMIX'},pageID: 'Editor'},category: {primaryCategory: 'MobileCategory'}}};</SCRIPT>
+
+<SCRIPT src="" type="text/javascript">//</SCRIPT>
+
+<META name="GENERATOR" content="MSHTML 11.00.9600.18450"></HEAD>
+<BODY id="body" style="background: rgb(45, 63, 73);" ng-app="RadarcOnlineApp">
+<DIV class="global-header-container"><HEADER class="global-header" id="global-header" 
+role="banner" aria-label="IBM Bluemix" data-icon-sprite-url="https://new-console.ng.bluemix.net/api/v4/img/sprite.svg" 
+data-version="V4"><A tabindex="1" class="skip-to-content" href="https://new-console.ng.bluemix.net/mobile/projects/#main-content">Skip 
+to content</A><A class="global-logo" 
+href="https://new-console.ng.bluemix.net/"><SPAN class="global-logo__image"><IMG 
+alt="bluemix" 
+src="Bluemix%20Mobile_files/bluemix-logo-2016-feb.svg"></SPAN><SPAN class="global-logo__text">IBM 
+<SPAN class="bluemix-product-title">Bluemix</SPAN></SPAN></A><A class="global-menu-trigger hide-if-expired" 
+aria-haspopup="true" href="javascript:void(0)" 
+data-nav-target=".taxonomy-nav"><SPAN class="current-taxonomy" data-locations='{"all":"All","console":"Console","compute":"Compute","storage":"Storage","network":"Network","mobile":"Mobile","internet of things":"Internet of Things","application services":"Application Services","watson":"Watson","data &amp; analytics":"Data &amp; Analytics","integrate":"Integrate","media &amp; cdn":"Media &amp; CDN","devops":"DevOps","security":"Security","private apis":"APIs"}'>Mobile</SPAN></A><NAV 
+class="taxonomy-nav" role="navigation" aria-label="Bluemix navigation">
+<UL class="taxonomy-menu" data-url="//ace-common-test-20160914-093307.ng.bluemix.net/api/v4/taxonomy">
+  <LI class="taxonomy-item taxonomy-item--all"><A class="taxonomy-item--taxonomy-menu" 
+  href="https://new-console.ng.bluemix.net/#all-items">
+  <DIV class="taxonomy-item__icon icon--console"><svg xmlns="http://www.w3.org/2000/svg" 
+  class="svg--taxonomy--console--dims" focusable="false"><use xmlns:xlink="http://www.w3.org/1999/xlink" 
+  xlink:href="https://new-console.ng.bluemix.net/api/v4/img/sprite.svg#taxonomy--console" 
+  /></svg></DIV>
+  <P class="taxonomy-item__label">Console</P></A></LI>
+  <LI class="taxonomy-item taxonomy-item--compute"><A class="taxonomy-item--taxonomy-menu" 
+  href="https://new-console.ng.bluemix.net/dashboard/compute">
+  <DIV class="taxonomy-item__icon icon--compute"><svg xmlns="http://www.w3.org/2000/svg" 
+  class="svg--taxonomy--compute--dims" focusable="false"><use xmlns:xlink="http://www.w3.org/1999/xlink" 
+  xlink:href="https://new-console.ng.bluemix.net/api/v4/img/sprite.svg#taxonomy--compute" 
+  /></svg></DIV>
+  <P class="taxonomy-item__label">Compute</P></A></LI>
+  <LI class="taxonomy-item taxonomy-item--network"><A class="taxonomy-item--taxonomy-menu" 
+  href="https://new-console.ng.bluemix.net/dashboard/network">
+  <DIV class="taxonomy-item__icon icon--network"><svg xmlns="http://www.w3.org/2000/svg" 
+  class="svg--taxonomy--network--dims" focusable="false"><use xmlns:xlink="http://www.w3.org/1999/xlink" 
+  xlink:href="https://new-console.ng.bluemix.net/api/v4/img/sprite.svg#taxonomy--network" 
+  /></svg></DIV>
+  <P class="taxonomy-item__label">Network</P></A></LI>
+  <LI class="taxonomy-item taxonomy-item--storage"><A class="taxonomy-item--taxonomy-menu" 
+  href="https://new-console.ng.bluemix.net/dashboard/storage">
+  <DIV class="taxonomy-item__icon icon--storage"><svg xmlns="http://www.w3.org/2000/svg" 
+  class="svg--taxonomy--storage--dims" focusable="false"><use xmlns:xlink="http://www.w3.org/1999/xlink" 
+  xlink:href="https://new-console.ng.bluemix.net/api/v4/img/sprite.svg#taxonomy--storage" 
+  /></svg></DIV>
+  <P class="taxonomy-item__label">Storage</P></A></LI>
+  <LI class="taxonomy-item taxonomy-item--data"><A class="taxonomy-item--taxonomy-menu" 
+  href="https://new-console.ng.bluemix.net/data/services">
+  <DIV class="taxonomy-item__icon icon--data"><svg xmlns="http://www.w3.org/2000/svg" 
+  class="svg--taxonomy--data--dims" focusable="false"><use xmlns:xlink="http://www.w3.org/1999/xlink" 
+  xlink:href="https://new-console.ng.bluemix.net/api/v4/img/sprite.svg#taxonomy--data" 
+  /></svg></DIV>
+  <P class="taxonomy-item__label">Data &amp; Analytics</P></A></LI>
+  <LI class="taxonomy-item taxonomy-item--watson"><A class="taxonomy-item--taxonomy-menu" 
+  href="https://new-console.ng.bluemix.net/dashboard/watson">
+  <DIV class="taxonomy-item__icon icon--watson"><svg xmlns="http://www.w3.org/2000/svg" 
+  class="svg--taxonomy--watson--dims" focusable="false"><use xmlns:xlink="http://www.w3.org/1999/xlink" 
+  xlink:href="https://new-console.ng.bluemix.net/api/v4/img/sprite.svg#taxonomy--watson" 
+  /></svg></DIV>
+  <P class="taxonomy-item__label">Watson</P></A></LI>
+  <LI class="taxonomy-item taxonomy-item--iot"><A class="taxonomy-item--taxonomy-menu" 
+  href="https://new-console.ng.bluemix.net/iot/dashboard">
+  <DIV class="taxonomy-item__icon icon--iot"><svg xmlns="http://www.w3.org/2000/svg" 
+  class="svg--taxonomy--iot--dims" focusable="false"><use xmlns:xlink="http://www.w3.org/1999/xlink" 
+  xlink:href="https://new-console.ng.bluemix.net/api/v4/img/sprite.svg#taxonomy--iot" 
+  /></svg></DIV>
+  <P class="taxonomy-item__label">Internet of Things</P></A></LI>
+  <LI class="taxonomy-item taxonomy-item--apis"><A class="taxonomy-item--taxonomy-menu" 
+  href="https://new-console.ng.bluemix.net/apis/services">
+  <DIV class="taxonomy-item__icon icon--private-apis"><svg xmlns="http://www.w3.org/2000/svg" 
+  class="svg--taxonomy--private-apis--dims" focusable="false"><use xmlns:xlink="http://www.w3.org/1999/xlink" 
+  xlink:href="https://new-console.ng.bluemix.net/api/v4/img/sprite.svg#taxonomy--private-apis" 
+  /></svg></DIV>
+  <P class="taxonomy-item__label">APIs</P></A></LI>
+  <LI class="taxonomy-item taxonomy-item--devops"><A class="taxonomy-item--taxonomy-menu" 
+  href="https://new-console.ng.bluemix.net/dashboard/devops">
+  <DIV class="taxonomy-item__icon icon--devops"><svg xmlns="http://www.w3.org/2000/svg" 
+  class="svg--taxonomy--devops--dims" focusable="false"><use xmlns:xlink="http://www.w3.org/1999/xlink" 
+  xlink:href="https://new-console.ng.bluemix.net/api/v4/img/sprite.svg#taxonomy--devops" 
+  /></svg></DIV>
+  <P class="taxonomy-item__label">DevOps</P></A></LI>
+  <LI class="taxonomy-item taxonomy-item--security"><A class="taxonomy-item--taxonomy-menu" 
+  href="https://new-console.ng.bluemix.net/dashboard/security">
+  <DIV class="taxonomy-item__icon icon--security"><svg xmlns="http://www.w3.org/2000/svg" 
+  class="svg--taxonomy--security--dims" focusable="false"><use xmlns:xlink="http://www.w3.org/1999/xlink" 
+  xlink:href="https://new-console.ng.bluemix.net/api/v4/img/sprite.svg#taxonomy--security" 
+  /></svg></DIV>
+  <P class="taxonomy-item__label">Security</P></A></LI>
+  <LI class="taxonomy-item taxonomy-item--app-services"><A class="taxonomy-item--taxonomy-menu" 
+  href="https://new-console.ng.bluemix.net/dashboard/app-services">
+  <DIV class="taxonomy-item__icon icon--app-services"><svg xmlns="http://www.w3.org/2000/svg" 
+  class="svg--taxonomy--app-services--dims" focusable="false"><use xmlns:xlink="http://www.w3.org/1999/xlink" 
+  xlink:href="https://new-console.ng.bluemix.net/api/v4/img/sprite.svg#taxonomy--app-services" 
+  /></svg></DIV>
+  <P class="taxonomy-item__label">Application Services</P></A></LI>
+  <LI class="taxonomy-item taxonomy-item--mobile"><A class="taxonomy-item--taxonomy-menu" 
+  href="https://new-console.ng.bluemix.net/mobile/projects">
+  <DIV class="taxonomy-item__icon icon--mobile"><svg xmlns="http://www.w3.org/2000/svg" 
+  class="svg--taxonomy--mobile--dims" focusable="false"><use xmlns:xlink="http://www.w3.org/1999/xlink" 
+  xlink:href="https://new-console.ng.bluemix.net/api/v4/img/sprite.svg#taxonomy--mobile" 
+  /></svg></DIV>
+  <P class="taxonomy-item__label">Mobile</P></A></LI>
+  <LI class="taxonomy-item taxonomy-item--integration"><A class="taxonomy-item--taxonomy-menu" 
+  href="https://new-console.ng.bluemix.net/dashboard/integration">
+  <DIV class="taxonomy-item__icon icon--integration"><svg xmlns="http://www.w3.org/2000/svg" 
+  class="svg--taxonomy--integration--dims" focusable="false"><use xmlns:xlink="http://www.w3.org/1999/xlink" 
+  xlink:href="https://new-console.ng.bluemix.net/api/v4/img/sprite.svg#taxonomy--integration" 
+  /></svg></DIV>
+  <P class="taxonomy-item__label">Integrate</P></A></LI>
+  <LI class="taxonomy-item taxonomy-item--media-cdn hide"><A class="taxonomy-item--taxonomy-menu" 
+  href="https://new-console.ng.bluemix.net/dashboard/media-cdn">
+  <DIV class="taxonomy-item__icon icon--media-cdn"><svg xmlns="http://www.w3.org/2000/svg" 
+  class="svg--taxonomy--media-cdn--dims" focusable="false"><use xmlns:xlink="http://www.w3.org/1999/xlink" 
+  xlink:href="https://new-console.ng.bluemix.net/api/v4/img/sprite.svg#taxonomy--media-cdn" 
+  /></svg></DIV>
+  <P class="taxonomy-item__label">Media &amp; CDN</P></A></LI></UL></NAV>
+<DIV class="global-links"><A class="bluemix-nav-list-link hide-if-expired" href="https://new-console.ng.bluemix.net/catalog">Catalog</A><A 
+class="bluemix-nav-list-link softlayer" href="https://control.softlayer.com/" 
+target="_blank">SoftLayer</A><A class="bluemix-nav-list-link hide-if-expired" 
+href="https://new-console.ng.bluemix.net/docs/" target="_blank">Docs</A></DIV>
+<DIV class="upgrade-complete" daysleftintrialdisplay="20,15,10,5,2,1,0">
+<DIV class="upgrade-countdown">
+<DIV class="upgrade-text">
+<P class="upgrade-text__number">30</P></DIV></DIV>
+<DIV class="upgrade-up-arrow"></DIV>
+<DIV class="upgrade-pane">
+<DIV class="upgrade-pane__header">
+<P class="upgrade-pane__title upgrade-pane__title--single">You have 1 day left 
+in your Bluemix test drive.</P>
+<P class="upgrade-pane__title upgrade-pane__title--plural">You have __numDay__ 
+days left in your Bluemix test drive.</P></DIV>
+<DIV class="upgrade-pane__body">
+<P class="upgrade-pane__para">Keep your account going by adding your credit 
+card.<BR>Don't worry. We won't charge you unless you go over your free monthly 
+allowance. <A href="https://new-console.ng.bluemix.net/pricing">Learn 
+more</A></P></DIV>
+<DIV class="upgrade-pane__footer"><A class="btn" href="https://new-console.ng.bluemix.net/?direct=classic/#/upgradeAccount">Add 
+Credit Card</A>
+<P class="upgrade-pane__small">Or apply your <A href="https://new-console.ng.bluemix.net/?direct=classic/#/userAccount/selected_nav=nav_account">promo 
+code</A>.</P></DIV></DIV></DIV>
+<DIV class="global-credit-container" data-credit-container="">
+<DIV class="global-credit-header" data-credit-header="">
+<P class="global-credit-header__credits" data-credit-amount-title="">Credit: 
+__NUM__</P>
+<P class="global-credit-header__text" data-credit-expires="">Expires: 
+__DATE__</P></DIV>
+<DIV class="credit-up-arrow" data-credit-arrow=""></DIV>
+<DIV class="global-credit-pane" data-credit-pane="">
+<P class="global-credit-pane__subtitle">Initial Credit Value</P>
+<P class="global-credit-pane__data" data-credit-initial=""></P>
+<P class="global-credit-pane__subtitle">Credit Remaining</P>
+<P class="global-credit-pane__data" data-credit-amount=""></P>
+<P class="global-credit-pane__subtitle">Expires</P>
+<P class="global-credit-pane__data" data-credit-date=""></P>
+<P class="global-credit-pane__subtitle">Spend Rate</P>
+<P class="global-credit-pane__data" data-credit-rate="">~__NUM__ per 
+day</P></DIV></DIV><A title="Avatar" class="global-profile bluemix-nav-authorized" 
+aria-label="Avatar" href="javascript:void(0)" data-url="//ace-common-test-20160914-093307.ng.bluemix.net/api/v4/account-status">
+<DIV class="global-profile__avatar"><svg xmlns="http://www.w3.org/2000/svg" 
+class="global-profile__default-photo"><use xmlns:xlink="http://www.w3.org/1999/xlink" 
+xlink:href="https://new-console.ng.bluemix.net/api/v4/img/sprite.svg#common--user" 
+/></svg><IMG class="global-profile__user-photo" alt=""></DIV>
+<DIV class="global-profile__information">
+<DIV class="global-profile__name"><SPAN class="global-profile__given-name" 
+style="display: inline;">chirala&nbsp;</SPAN><SPAN class="global-profile__family-name" 
+style="display: inline;">yeshwanth</SPAN><SPAN class="global-profile__email" 
+style="display: none;">tinkuchirala2806@gmail.com</SPAN></DIV>
+<DIV class="global-profile__details"><SPAN class="global-profile__org" 
+guid=""></SPAN><SPAN class="global-profile__space" 
+guid=""></SPAN></DIV></DIV></A>
+<DIV class="bluemix-support">
+<SCRIPT class="support-client-strings" type="text/template">{"no_results": "No results found.","related_articles": "Related Articles","docs": "Bluemix Docs","stackoverflow": "Stack Overflow","views": "Views:","score": "Score:","answers": "Answers:","view_more_stackoverflow": "More on Stack Overflow","view_more_docs": "More on Bluemix Docs","tier_title_free": "Free","tier_title_basic": "Basic","tier_title_standard": "Standard","tier_title_premium": "Premium","tier_title_indeterminate": "Not Available","not_applicable_other": "Not applicable, or other","not_applicable": "Not applicable","other": "Other","pick_app": "Choose an app with the problem.","pick_service": "Choose a service with the problem.","pick_resource": "Choose a resource with the problem.","runtime_based": "Runtime-based","container_based": "Container-based","vm_based": "VM-based","close": "Close","open_feature": "Open Feature","loading": "Loading...","submitting": " Submitting.... Your request might take a while, depending on file size.","error_search": "Your search was not completed because of a problem. Try again later.","error_missing_subject": "Enter a subject.","error_missing_desc": "Enter a description.","error_missing_refibmid": "Enter an IBMid.","error_missing_app": "Choose an app.","error_missing_service": "Choose a service.","error_exceeding_file_count": "Only ten files can be selected. Try again.","error_exceeding_file_size": "The attachments exceed the limit of 25 MB. Try again.","error_invalid_email": "Enter a valid email address.","error_exceeding_cc_email": "Only five additional email addresses can be included.","error_ticket_submit": "Your request was not submitted because of a problem. Try again later.","create_space_dialog_title": "Create Space","cannot_create_space": "The space cannot be created","no_space_create_space": "The '{0}' organization does not have a space in the '{1}' region. When you create a space for your organization, it will be created in this region.","no_space_cannot_create_space": "The '{0}' organization does not have a space in the '{1}' region.","enter_space_name": "Enter space name","create": "Create","cancel": "Cancel","error_creating_space": "BXNUI0700E: The '{0}' space wasn't created because a problem occurred contacting Cloud Foundry. Click ​<strong>Create</strong> to try again or cancel the action.","error_duplicate_space_name": "You already have a space named '{0}'. Try a different name.","error_empty_space_field": "You need to enter a space name.","create_space_restriction": "You do not have the proper permissions to create a space in the ‘{0}’ organization. To get your permissions changed or to get the space created for you, contact a manager for this organization."}</SCRIPT>
+
+<SCRIPT>window.aceProxyUrl = "https://new-console.ng.bluemix.net";window.cfDomain = "ng.bluemix.net";</SCRIPT>
+
+<DIV class="ticket-submission-overlay"></DIV>
+<DIV class="sidebar" id="sidebar">
+<DIV class="main-header">
+<DIV class="sidebar-profile__avatar"><svg xmlns="http://www.w3.org/2000/svg" 
+class="sidebar-profile__default-photo"><use xmlns:xlink="http://www.w3.org/1999/xlink" 
+xlink:href="https://new-console.ng.bluemix.net/api/v4/img/sprite.svg#common--user" 
+/></svg><IMG class="sidebar-profile__user-photo" alt=""></DIV><A class="close-sidebar" 
+href="javascript:void(0);"><svg 
+xmlns="http://www.w3.org/2000/svg"><title>Close</title><use xmlns:xlink="http://www.w3.org/1999/xlink" 
+xlink:href="https://new-console.ng.bluemix.net/api/v4/img/sprite.svg#support--close-stroke-circle" 
+/></svg></A><A class="back-sidebar" href="javascript:void(0);"><svg xmlns="http://www.w3.org/2000/svg"><title>back</title><use 
+xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://new-console.ng.bluemix.net/api/v4/img/sprite.svg#support--left-arrow-stroke-circle" 
+/></svg></A>
+<DIV class="user-details">
+<P class="username display-name-email-ellipsised"><SPAN class="username-given-name">chirala</SPAN>&nbsp;<SPAN 
+class="username-family-name">yeshwanth</SPAN></P>
+<P 
+class="user-email display-name-email-ellipsised">tinkuchirala2806@gmail.com</P>
+<UL class="user-account" data-enable-atlas-account-support="true">
+  <LI><A tabindex="0" class="account-link hide-if-expired" href="https://new-console.ng.bluemix.net/account">Account</A></LI>
+  <LI><A tabindex="0" class="status-link hide-if-expired" href="https://new-console.ng.bluemix.net/status" 
+  target="_blank">Status</A></LI>
+  <LI><A class="logout-link support-widget" href="javascript:void(0);">Log 
+  Out</A></LI></UL></DIV></DIV>
+<DIV class="page-sidebar-main">
+<DIV class="select-area">
+<DIV class="user-select select-region">
+<P class="select-title">Region</P>
+<P class="select-name current-region" data-name="us-south">US South</P>
+<P class="select-name other-region name-hidden" data-name="au-syd" target-url="https://new-console.au-syd.bluemix.net/mobile/projects">Sydney</P>
+<P class="select-name other-region name-hidden" data-name="eu-gb" target-url="https://new-console.eu-gb.bluemix.net/mobile/projects">United 
+Kingdom</P><svg xmlns="http://www.w3.org/2000/svg" class="chevron toggle-region-expand"><title>expand</title><use 
+xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://new-console.ng.bluemix.net/api/v4/img/sprite.svg#support--chevron-down" 
+/></svg></DIV>
+<DIV class="user-select select-org">
+<P class="select-title">Organization</P>
+<P class="select-name current-org">Loading...</P><svg xmlns="http://www.w3.org/2000/svg" 
+class="chevron toggle-org-expand current-org-toggle"><title>expand</title><use 
+xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://new-console.ng.bluemix.net/api/v4/img/sprite.svg#support--chevron-down" 
+/></svg></DIV>
+<DIV class="user-select select-space">
+<P class="select-title">Space</P>
+<P class="select-name current-space">Loading...</P><svg xmlns="http://www.w3.org/2000/svg" 
+class="chevron toggle-space-expand current-space-toggle"><title>expand</title><use 
+xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://new-console.ng.bluemix.net/api/v4/img/sprite.svg#support--chevron-down" 
+/></svg></DIV>
+<DIV class="select-area-links manage-org-link"><A href="https://new-console.ng.bluemix.net/account">Manage 
+Organizations</A></DIV>
+<DIV class="select-area-links create-space-link"><A 
+href="javascript:void(0)">Create a Space</A></DIV></DIV>
+<DIV class="main-notifications-container">
+<P class="main-section-title">Notifications</P>
+<DIV class="notifications-entries">
+<P class="notification main-section-no-notification ">You have no new 
+notifications</P></DIV></DIV>
+<DIV class="main-support">
+<P class="main-section-title">Support</P>
+<DIV class="support-card card-get-help"><svg xmlns="http://www.w3.org/2000/svg" 
+class="support-card-icon"><title>get help</title><use xmlns:xlink="http://www.w3.org/1999/xlink" 
+xlink:href="https://new-console.ng.bluemix.net/api/v4/img/sprite.svg#support--help-fill-circle-with-outline" 
+/></svg>
+<P class="support-title">Get help</P>
+<P class="support-detail">Get help on anything from technical support to sales 
+inquiries.</P></DIV>
+<DIV class="support-card card-submit-idea"><svg xmlns="http://www.w3.org/2000/svg" 
+class="support-card-icon"><title>submit an idea</title><use xmlns:xlink="http://www.w3.org/1999/xlink" 
+xlink:href="https://new-console.ng.bluemix.net/api/v4/img/sprite.svg#support--idea-fill-circle-with-outline" 
+/></svg>
+<P class="support-title">Submit an Idea</P>
+<P class="support-detail">Help us help you. Submit ideas for improvements to 
+Bluemix!</P></DIV></DIV></DIV>
+<DIV class="page-help-container">
+<DIV class="help-search-container">
+<P class="main-section-title">Get help</P>
+<P class="help-details">Explore existing support articles.</P>
+<DIV class="input-container">
+<DIV class="search-button"><svg xmlns="http://www.w3.org/2000/svg" class="search-icon"><title>search</title><use 
+xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://new-console.ng.bluemix.net/api/v4/img/sprite.svg#support--search-padding" 
+/></svg></DIV><INPUT class="help-search" type="text" placeholder="Type to search" value=""></DIV>
+<P class="help-details search-message-text">Get answers now. Search our 
+documentation and posts from the Stack Overflow community (which we actively 
+monitor).</P>
+<P class="article-list"></P><BUTTON class="btn-post-question">Post to Stack 
+Overflow</BUTTON>
+<DIV class="view-more-container"></DIV></DIV>
+<DIV class="help-container-footer">
+<P class="main-section-title title-centered">Still having trouble?</P><BUTTON 
+class="btn-submit-ticket">Get in Touch</BUTTON></DIV></DIV>
+<DIV class="page-ticket-selection ticket-selection">
+<UL class="ticket-categories">
+  <P class="ticket-selection-title">Support<A class="manage-tickets-link" href="https://support.ibmcloud.com/ics/support/mylogin.asp?login=bluemix" 
+  target="_blank">Manage Tickets</A></P>
+  <P class="support-tier-label">Tier level: <SPAN class="support-tier-label__active-tier"></SPAN><svg 
+  xmlns="http://www.w3.org/2000/svg" 
+  class="support-info-icon tiers-info-icon"><title>information</title><use 
+  xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://new-console.ng.bluemix.net/api/v4/img/sprite.svg#support--info-stroke-circle" 
+  /></svg></P>
+  <P class="main-section-title">I want to contact:</P><A href="mailto:sales@bluemix.net?Subject=I have a question about Bluemix" 
+  target="_top">
+  <LI><SPAN>Sales</SPAN><svg xmlns="http://www.w3.org/2000/svg" class="arrow-icon"><use 
+  xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://new-console.ng.bluemix.net/api/v4/img/sprite.svg#support--arrow-right" 
+  /></svg></LI></A>
+  <P class="main-section-title">I need help with:</P>
+  <LI class="ticket-account"><SPAN>My account or logging in</SPAN><svg xmlns="http://www.w3.org/2000/svg" 
+  class="arrow-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" 
+  xlink:href="https://new-console.ng.bluemix.net/api/v4/img/sprite.svg#support--arrow-right" 
+  /></svg></LI>
+  <LI class="ticket-billing"><SPAN>Billing</SPAN><svg xmlns="http://www.w3.org/2000/svg" 
+  class="arrow-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" 
+  xlink:href="https://new-console.ng.bluemix.net/api/v4/img/sprite.svg#support--arrow-right" 
+  /></svg></LI>
+  <P class="main-section-title">I need technical support for:</P>
+  <LI class="ticket-resource" data-tags="compute" 
+  data-category="compute"><SPAN>Compute</SPAN><svg xmlns="http://www.w3.org/2000/svg" 
+  class="arrow-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" 
+  xlink:href="https://new-console.ng.bluemix.net/api/v4/img/sprite.svg#support--arrow-right" 
+  /></svg></LI>
+  <LI class="ticket-resource" data-tags="network" 
+  data-category="network"><SPAN>Network</SPAN><svg xmlns="http://www.w3.org/2000/svg" 
+  class="arrow-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" 
+  xlink:href="https://new-console.ng.bluemix.net/api/v4/img/sprite.svg#support--arrow-right" 
+  /></svg></LI>
+  <LI class="ticket-resource" data-tags="storage" 
+  data-category="storage"><SPAN>Storage</SPAN><svg xmlns="http://www.w3.org/2000/svg" 
+  class="arrow-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" 
+  xlink:href="https://new-console.ng.bluemix.net/api/v4/img/sprite.svg#support--arrow-right" 
+  /></svg></LI>
+  <LI class="ticket-resource" data-tags="data_analytics,business_analytics,data_management,big_data" 
+  data-category="data"><SPAN>Data &amp; Analytics</SPAN><svg xmlns="http://www.w3.org/2000/svg" 
+  class="arrow-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" 
+  xlink:href="https://new-console.ng.bluemix.net/api/v4/img/sprite.svg#support--arrow-right" 
+  /></svg></LI>
+  <LI class="ticket-resource" data-tags="watson" 
+  data-category="watson"><SPAN>Watson</SPAN><svg xmlns="http://www.w3.org/2000/svg" 
+  class="arrow-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" 
+  xlink:href="https://new-console.ng.bluemix.net/api/v4/img/sprite.svg#support--arrow-right" 
+  /></svg></LI>
+  <LI class="ticket-resource" data-tags="internet_of_things" 
+  data-category="iot"><SPAN>Internet of Things</SPAN><svg xmlns="http://www.w3.org/2000/svg" 
+  class="arrow-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" 
+  xlink:href="https://new-console.ng.bluemix.net/api/v4/img/sprite.svg#support--arrow-right" 
+  /></svg></LI>
+  <LI class="ticket-resource" data-tags="private" 
+  data-category="apis"><SPAN>APIs</SPAN><svg xmlns="http://www.w3.org/2000/svg" 
+  class="arrow-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" 
+  xlink:href="https://new-console.ng.bluemix.net/api/v4/img/sprite.svg#support--arrow-right" 
+  /></svg></LI>
+  <LI class="ticket-resource" data-tags="dev_ops" 
+  data-category="devops"><SPAN>DevOps</SPAN><svg xmlns="http://www.w3.org/2000/svg" 
+  class="arrow-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" 
+  xlink:href="https://new-console.ng.bluemix.net/api/v4/img/sprite.svg#support--arrow-right" 
+  /></svg></LI>
+  <LI class="ticket-resource" data-tags="security" 
+  data-category="security"><SPAN>Security</SPAN><svg xmlns="http://www.w3.org/2000/svg" 
+  class="arrow-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" 
+  xlink:href="https://new-console.ng.bluemix.net/api/v4/img/sprite.svg#support--arrow-right" 
+  /></svg></LI>
+  <LI class="ticket-resource" data-tags="app_services,web_and_app" 
+  data-category="app-services"><SPAN>Application Services</SPAN><svg xmlns="http://www.w3.org/2000/svg" 
+  class="arrow-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" 
+  xlink:href="https://new-console.ng.bluemix.net/api/v4/img/sprite.svg#support--arrow-right" 
+  /></svg></LI>
+  <LI class="ticket-resource" data-tags="mobile" 
+  data-category="mobile"><SPAN>Mobile</SPAN><svg xmlns="http://www.w3.org/2000/svg" 
+  class="arrow-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" 
+  xlink:href="https://new-console.ng.bluemix.net/api/v4/img/sprite.svg#support--arrow-right" 
+  /></svg></LI>
+  <LI class="ticket-resource" data-tags="integration" data-category="integration"><SPAN>Integrate</SPAN><svg 
+  xmlns="http://www.w3.org/2000/svg" class="arrow-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" 
+  xlink:href="https://new-console.ng.bluemix.net/api/v4/img/sprite.svg#support--arrow-right" 
+  /></svg></LI>
+  <LI class="ticket-resource" data-tags="media_cdn" 
+  data-category="media-cdn"><SPAN>Media &amp; CDN</SPAN><svg xmlns="http://www.w3.org/2000/svg" 
+  class="arrow-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" 
+  xlink:href="https://new-console.ng.bluemix.net/api/v4/img/sprite.svg#support--arrow-right" 
+  /></svg></LI>
+  <P class="main-section-title">Not sure?</P>
+  <LI class="ticket-technical"><SPAN>Something else</SPAN><svg xmlns="http://www.w3.org/2000/svg" 
+  class="arrow-icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" 
+  xlink:href="https://new-console.ng.bluemix.net/api/v4/img/sprite.svg#support--arrow-right" 
+  /></svg></LI></UL></DIV>
+<DIV class="page-ticket-container ticket-container"><INPUT name="ibmid" type="hidden" value="tinkuchirala2806@gmail.com">
+<DIV class="ticket-select">
+<P class="ticket-title"></P>
+<P class="support-tier-label">Tier level: <SPAN class="support-tier-label__active-tier"></SPAN><svg 
+xmlns="http://www.w3.org/2000/svg" 
+class="support-info-icon tiers-info-icon"><title>information</title><use 
+xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://new-console.ng.bluemix.net/api/v4/img/sprite.svg#support--info-stroke-circle" 
+/></svg></P>
+<P class="ticket-information">Region</P>
+<P class="region-name ticket-fields-region-text">US South</P><SELECT name="region" 
+class="ticket-fields-region-dropdown"><OPTION value="ibm:yp:us-south" 
+  selected="">US South</OPTION><OPTION 
+  value="ibm:yp:au-syd">Sydney</OPTION><OPTION value="ibm:yp:eu-gb">United 
+  Kingdom</OPTION></SELECT></DIV>
+<DIV class="ticket-select ticket-fields-space-org">
+<P class="ticket-information">Bluemix organization</P><SELECT name="org" class="ticket-info-org org-picker option-has-guid" 
+data-url="//ace-common-test-20160914-093307.ng.bluemix.net/api/v4/selected-org" 
+is-manager-url="//ace-common-test-20160914-093307.ng.bluemix.net/api/v4/is-manager"></SELECT></DIV>
+<DIV class="ticket-select ticket-fields-space-org">
+<P class="ticket-information">Bluemix space</P><SELECT name="space" class="ticket-info-space option-has-guid"></SELECT></DIV>
+<DIV class="ticket-fields-ibmid">
+<P class="ticket-information">IBMid</P><INPUT name="refibmid" class="ticket-info-refibmid" type="text" value="tinkuchirala2806@gmail.com"></DIV>
+<DIV class="ticket-fields-invoice">
+<P class="ticket-information">Invoice number</P><INPUT name="invoice" class="ticket-info-invoice" type="text" placeholder="(optional)" value=""></DIV>
+<DIV class="ticket-select ticket-fields-resource">
+<P class="ticket-information"><SPAN class="category-label">Category</SPAN> 
+Resource</P><SELECT name="resource" class="ticket-info-resource option-has-guid" 
+data-url="//ace-common-test-20160914-093307.ng.bluemix.net/api/v4/resources"></SELECT></DIV>
+<DIV class="ticket-divider"></DIV>
+<P class="ticket-information">Subject*</P><INPUT name="summary" class="ticket-info-subject" type="text" maxlength="140" placeholder="What's this about?" value="">
+<P class="ticket-information">Brief 
+description*</P><TEXTAREA name="description" class="ticket-info-desc" maxlength="60000" placeholder="What's going on?" rows="4">What's going on?</TEXTAREA>
+<DIV class="ticket-divider"></DIV>
+<P class="ticket-information">Include an attachment<BR><SPAN 
+class="extra-info">(Up to 10 files and 25 MB total)</SPAN></P>
+<DIV class="image-upload"><LABEL class="attachment-button" 
+for="file-input">Choose a file.<svg xmlns="http://www.w3.org/2000/svg" class="upload-icon"><title>upload</title><use 
+xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://new-console.ng.bluemix.net/api/v4/img/sprite.svg#support--upload-padding" 
+/></svg></LABEL><INPUT id="file-input" type="file" multiple=""></DIV>
+<DIV class="selected-files"></DIV>
+<DIV class="ticket-divider"></DIV>
+<DIV class="clearfix"></DIV>
+<P class="ticket-information">Include another email address</P>
+<DIV class="input-container"><svg xmlns="http://www.w3.org/2000/svg" class="add-email-icon"><title>add 
+email</title><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://new-console.ng.bluemix.net/api/v4/img/sprite.svg#support--check-padding" 
+/></svg><INPUT class="add-email-field" type="text" placeholder="user@domain" value=""></DIV>
+<DIV class="selected-emails"></DIV>
+<DIV class="ticket-divider"></DIV>
+<DIV class="ticket-error-message"></DIV>
+<DIV class="ticket-submit-container"><BUTTON 
+class="submit-cancel cancel-button">Cancel</BUTTON><BUTTON class="submit-cancel next-button">Next</BUTTON><BUTTON 
+class="submit-cancel submit-button">Submit</BUTTON></DIV></DIV>
+<DIV class="page-severity">
+<DIV class="severity-selection">
+<DIV class="severity-choice-selection severity-info">
+<P class="severity-title">Your ticket will be submitted with a low 
+severity.</P><BR>
+<P class="urgency-title">Is your request more urgent?</P>
+<P class="sev-sections-paid">Change the severity and submit.</P>
+<P class="upgrade-support-1 sev-sections-nonpaid">To submit high-severity (level 
+1, 2, and 3) tickets, upgrade to <A class="standard-support-url" 
+target="_blank">Standard Support</A> by contacting <A href="mailto:sales@bluemix.net?subject=I'd%20like%20to%20purchase%20standard%20support&amp;body=So%20that%20you%20can%20get%20me%20a%20quote%20for%20standard%20Bluemix%20support%2C%20here's%20some%20of%20my%20info%3A%0A%0ABilling%20Address%3A%0AShipping%20Address%20(if%20different)%3A%0AContact%20Phone%3A%0AEmail%20associated%20to%20my%20IBMid%3A" 
+target="_top">mailto:sales@bluemix.net?subject=I'd%20like%20to%20purchase%20standard%20support&amp;body=So%20that%20you%20can%20get%20me%20a%20quote%20for%20standard%20Bluemix%20support%2C%20here's%20some%20of%20my%20info%3A%0A%0ABilling%20Address%3A%0AShipping%20Address%20(if%20different)%3A%0AContact%20Phone%3A%0AEmail%20associated%20to%20my%20IBMid%3A</A></P></DIV>
+<DIV class="high-low">
+<P class="highest">Lowest</P>
+<DIV class="lowest">Highest</DIV></DIV>
+<DIV class="severity-border border-full"></DIV>
+<DIV class="clearfix"></DIV>
+<DIV class="severity-choice-selection">
+<DIV class="severity-choice">
+<DIV class="severity-circle circle-4 severity-circle-selected"></DIV>
+<P>4</P></DIV>
+<DIV class="severity-choice sev-sections-paid">
+<DIV class="severity-circle circle-3"></DIV>
+<P>3</P></DIV>
+<DIV class="severity-choice sev-sections-paid">
+<DIV class="severity-circle circle-2"></DIV>
+<P>2</P></DIV>
+<DIV class="severity-choice sev-sections-paid">
+<DIV class="severity-circle circle-1"></DIV>
+<P>1</P></DIV>
+<DIV class="upgrade-support-2 sev-sections-nonpaid">Upgrade to <A class="standard-support-url" 
+target="_blank">Standard Support</A> to set a higher severity.</DIV></DIV>
+<DIV class="severity-explanation sev-1">
+<DIV class="ticket-information"><SPAN>Severity Level 1 (Highest)</SPAN><svg 
+xmlns="http://www.w3.org/2000/svg" 
+class="support-info-icon sev-info-icon"><title>information</title><use 
+xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://new-console.ng.bluemix.net/api/v4/img/sprite.svg#support--info-stroke-circle" 
+/></svg></DIV>
+<DIV class="severity-info">·&nbsp;Initial response time objective: 1 business 
+hour</DIV>
+<DIV class="severity-info office-hours">24x7, Monday to Sunday</DIV>
+<DIV class="severity-info">·&nbsp;Application not accessible by your 
+clients</DIV>
+<DIV class="severity-info">·&nbsp;Data corruption</DIV><BR>
+<P class="severity-info">You must be continuously available to work with Bluemix 
+Support to maintain this level of response. If you are not able to respond 
+within 1 hour, Support reserves the right to reduce the severity.</P></DIV>
+<DIV class="severity-explanation sev-2">
+<DIV class="ticket-information"><SPAN>Severity Level 2</SPAN><svg xmlns="http://www.w3.org/2000/svg" 
+class="support-info-icon sev-info-icon"><title>information</title><use 
+xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://new-console.ng.bluemix.net/api/v4/img/sprite.svg#support--info-stroke-circle" 
+/></svg></DIV>
+<DIV class="severity-info">·&nbsp;Initial response time objective: 2 business 
+hours</DIV>
+<DIV class="severity-info office-hours">Sunday 10:00 PM GMT to Saturday 12:00 AM 
+GMT</DIV>
+<DIV class="severity-info">·&nbsp;Application errors affecting multiple 
+users</DIV>
+<DIV class="severity-info">·&nbsp;Login problems for individual 
+users</DIV></DIV>
+<DIV class="severity-explanation sev-3">
+<DIV class="ticket-information"><SPAN>Severity Level 3</SPAN><svg xmlns="http://www.w3.org/2000/svg" 
+class="support-info-icon sev-info-icon"><title>information</title><use 
+xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://new-console.ng.bluemix.net/api/v4/img/sprite.svg#support--info-stroke-circle" 
+/></svg></DIV>
+<DIV class="severity-info">·&nbsp;Initial response time objective: 4 business 
+hours</DIV>
+<DIV class="severity-info office-hours">Sunday 10:00 PM GMT to Saturday 12:00 AM 
+GMT</DIV>
+<DIV class="severity-info">·&nbsp;General issues</DIV>
+<DIV class="severity-info">·&nbsp;Application errors or problems affecting 
+individual users</DIV></DIV>
+<DIV class="severity-explanation sev-4">
+<DIV class="ticket-information"><SPAN>Severity Level 4 (Lowest)</SPAN><svg 
+xmlns="http://www.w3.org/2000/svg" 
+class="support-info-icon sev-info-icon"><title>information</title><use 
+xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://new-console.ng.bluemix.net/api/v4/img/sprite.svg#support--info-stroke-circle" 
+/></svg></DIV>
+<DIV class="severity-info">·&nbsp;Initial response time objective: 1 Business 
+Day</DIV>
+<DIV class="severity-info office-hours">Sunday 10:00 PM GMT to Saturday 12:00 AM 
+GMT</DIV>
+<DIV class="severity-info">·&nbsp;Minor application issues</DIV>
+<DIV class="severity-info">·&nbsp;How-to questions</DIV>
+<DIV class="severity-info">·&nbsp;Requests for enhancements</DIV></DIV>
+<DIV class="ticket-error-message"></DIV>
+<DIV class="ticket-submit-container"><BUTTON 
+class="submit-cancel cancel-button">Cancel</BUTTON><BUTTON class="submit-cancel submit-button" 
+data-ticketapi-url="https://supportsite-ticketapi.ng.bluemix.net">Submit</BUTTON></DIV></DIV></DIV>
+<DIV class="page-severity-help">
+<DIV class="severity-explanation severity-help">
+<DIV class="severity-info">​Only trial users and accounts with an active support 
+subscription can create high-severity tickets.</DIV><BR>
+<DIV class="ticket-information">Do you want to add Support?</DIV>
+<DIV class="severity-info">To submit high-severity (level 1, 2, and 3) tickets, 
+upgrade to <A class="standard-support-url" target="_blank">Standard Support</A> 
+by contacting <A href="mailto:sales@bluemix.net?subject=I'd%20like%20to%20purchase%20standard%20support&amp;body=So%20that%20you%20can%20get%20me%20a%20quote%20for%20standard%20Bluemix%20support%2C%20here's%20some%20of%20my%20info%3A%0A%0ABilling%20Address%3A%0AShipping%20Address%20(if%20different)%3A%0AContact%20Phone%3A%0AEmail%20associated%20to%20my%20IBMid%3A" 
+target="_top">mailto:sales@bluemix.net?subject=I'd%20like%20to%20purchase%20standard%20support&amp;body=So%20that%20you%20can%20get%20me%20a%20quote%20for%20standard%20Bluemix%20support%2C%20here's%20some%20of%20my%20info%3A%0A%0ABilling%20Address%3A%0AShipping%20Address%20(if%20different)%3A%0AContact%20Phone%3A%0AEmail%20associated%20to%20my%20IBMid%3A</A></DIV></DIV>
+<DIV class="severity-explanation severity-help">
+<P class="ticket-information">Severity Level 1 (Highest)</P>
+<DIV class="severity-info">·&nbsp;Initial response time objective: 1 business 
+hour</DIV>
+<DIV class="severity-info office-hours">24x7, Monday to Sunday</DIV>
+<DIV class="severity-info">·&nbsp;Application not accessible by your 
+clients</DIV>
+<DIV class="severity-info">·&nbsp;Data corruption</DIV><BR>
+<P class="severity-info">You must be continuously available to work with Bluemix 
+Support to maintain this level of response. If you are not able to respond 
+within 1 hour, Support reserves the right to reduce the severity.</P></DIV>
+<DIV class="severity-explanation severity-help">
+<P class="ticket-information">Severity Level 2</P>
+<DIV class="severity-info">·&nbsp;Initial response time objective: 2 business 
+hours</DIV>
+<DIV class="severity-info office-hours">Sunday 10:00 PM GMT to Saturday 12:00 AM 
+GMT</DIV>
+<DIV class="severity-info">·&nbsp;Application errors affecting multiple 
+users</DIV>
+<DIV class="severity-info">·&nbsp;Login problems for individual 
+users</DIV></DIV>
+<DIV class="severity-explanation severity-help">
+<P class="ticket-information">Severity Level 3</P>
+<DIV class="severity-info">·&nbsp;Initial response time objective: 4 business 
+hours</DIV>
+<DIV class="severity-info office-hours">Sunday 10:00 PM GMT to Saturday 12:00 AM 
+GMT</DIV>
+<DIV class="severity-info">·&nbsp;General issues</DIV>
+<DIV class="severity-info">·&nbsp;Application errors or problems affecting 
+individual users</DIV></DIV>
+<DIV class="severity-explanation severity-help">
+<DIV class="ticket-information">Severity Level 4 (Lowest)</DIV>
+<DIV class="severity-info">·&nbsp;Initial response time objective: 1 Business 
+Day</DIV>
+<DIV class="severity-info office-hours">Sunday 10:00 PM GMT to Saturday 12:00 AM 
+GMT</DIV>
+<DIV class="severity-info">·&nbsp;Minor application issues</DIV>
+<DIV class="severity-info">·&nbsp;How-to questions</DIV>
+<DIV class="severity-info">·&nbsp;Requests for enhancements</DIV></DIV></DIV>
+<DIV class="page-tiers-help">
+<P class="support-tier-label">Tier level: <SPAN class="support-tier-label__active-tier"></SPAN></P>
+<P class="support-tier-description__cta-text--em">Want to upgrade?</P>
+<P class="support-tier-description__cta-text">To upgrade to <A class="standard-support-url" 
+target="_blank">Standard or Premium support</A>, contact <A href="mailto:sales@bluemix.net?subject=I'd%20like%20to%20purchase%20standard%20support&amp;body=So%20that%20you%20can%20get%20me%20a%20quote%20for%20standard%20Bluemix%20support%2C%20here's%20some%20of%20my%20info%3A%0A%0ABilling%20Address%3A%0AShipping%20Address%20(if%20different)%3A%0AContact%20Phone%3A%0AEmail%20associated%20to%20my%20IBMid%3A" 
+target="_top">mailto:sales@bluemix.net?subject=I'd%20like%20to%20purchase%20standard%20support&amp;body=So%20that%20you%20can%20get%20me%20a%20quote%20for%20standard%20Bluemix%20support%2C%20here's%20some%20of%20my%20info%3A%0A%0ABilling%20Address%3A%0AShipping%20Address%20(if%20different)%3A%0AContact%20Phone%3A%0AEmail%20associated%20to%20my%20IBMid%3A</A>.</P>
+<DIV class="ticket-divider"></DIV>
+<P class="support-tier-description__title">Basic</P>
+<P class="support-tier-description__description">Basic support is for 
+environments or workloads where traditional severity levels don't apply, or 
+specific response times are not needed. All customers of Bluemix are provided 
+basic ticketing support with their trial or paid services. With this support 
+level, no response time objectives are given.</P>
+<P class="support-tier-description__title">Standard</P>
+<P class="support-tier-description__description">Standard support is a good fit 
+for environments with a limited number of business-critical applications. Ticket 
+severity assignment, priority access, and response time objectives are provided. 
+All customers in a Bluemix account that have purchased standard support can open 
+a support ticket. Bluemix Dedicated and Bluemix Local customers receive standard 
+support.</P>
+<P class="support-tier-description__title">Premium</P>
+<P class="support-tier-description__description">Premium support is for 
+mission-critical environments that have a strategic dependence on Bluemix. 
+Premium support provides ticket severity assignment, priority access, rapid 
+response time objectives, and an assigned client success manager. A client 
+success manager acts as an initial escalation point for problems, if needed, and 
+provides technical coordination between you and IBM. All customers in a Bluemix 
+account that have purchased premium support can open a support ticket.</P></DIV>
+<DIV class="page-ticket-confirmation">
+<DIV class="ticket-confirmation">
+<P class="ticket-confirmation-title">Thank you!</P>
+<P class="ticket-confirmation-text ticket-number">Ticket number: <SPAN id="ticket-number"></SPAN></P>
+<P class="ticket-confirmation-text">We'll be in touch by email soon.</P></DIV>
+<DIV class="ticket-submit-container"><BUTTON 
+class="submit-cancel done-button">Done</BUTTON></DIV></DIV></DIV></DIV>
+<DIV class="logoutDialog dialogModal">
+<DIV class="dialogContainer hide" role="dialog" aria-labelledby="logoutDialog_title">
+<DIV class="dialogTitleBar"><SPAN class="dialogTitle">
+<DIV class="dialogMessageArea">
+<TABLE>
+  <TBODY>
+  <TR>
+    <TD id="iconCell">
+      <DIV class="icon-warning-orange-small"></DIV></TD>
+    <TD class="dialogMessageAreaTextCell"><SPAN class="dialogMessageAreaText" 
+      id="logoutDialog_title">Confirm</SPAN></TD></TR></TBODY></TABLE></DIV></SPAN>
+<DIV tabindex="0" title="Close" class="dialogCloseIcon" 
+role="button">×</DIV></DIV>
+<DIV class="dialogPaneContent">
+<DIV class="dialogContentArea">
+<DIV class="dialogMessageContentAreaContentDiv">
+<DIV class="messageArea">You are logged in to IBM Bluemix with your IBM id. 
+Logging out of Bluemix signs you out of other IBM applications that you might 
+have open in other browser windows. Do you want to log 
+out?</DIV></DIV></DIV></DIV>
+<DIV class="dialogFooter">
+<DIV class="dialogPaneActionBar"><A class="btn btn-secondary">Cancel</A><A 
+class="btn btn-primary logout-button" href="https://new-console.ng.bluemix.net/logout">Log 
+Out</A></DIV></DIV></DIV></DIV></HEADER></DIV>
+<SCRIPT>(function bmCookieManager() {var bmCookies = {createCookie: function createCookie(name,value,days) {if (days) {var date = new Date();date.setTime(date.getTime()+(days*24*60*60*1000));var expires = "; expires="+date.toGMTString();}else var expires = "";document.cookie = name+"="+value+expires+"; path=/; domain=.bluemix.net";},readCookie: function readCookie(name) {var nameEQ = name + "=";var ca = document.cookie.split(';');for(var i=0;i < ca.length;i++) {var c = ca[i];while (c.charAt(0)==' ') c = c.substring(1,c.length);if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);}return null;}};var envMap = {'sydney': {'prod': {'classic': 'https://console.au-syd.bluemix.net','new': 'https://new-console.au-syd.bluemix.net',},'ondeckprod': {'classic': 'https://console-ondeck.au-syd.bluemix.net','new': 'https://new-console-ondeck.au-syd.bluemix.net',}},'london': {'prod': {'classic': 'https://console.eu-gb.bluemix.net','new': 'https://new-console.eu-gb.bluemix.net',},'stage': {'classic': 'https://console.stage1.eu-gb.bluemix.net','new': 'https://new-console.stage1.eu-gb.bluemix.net',},'ondeckstage': {'classic': 'https://console-ondeck.stage1.eu-gb.bluemix.net','new': 'https://new-console-ondeck.stage1.eu-gb.bluemix.net',},'ondeckprod': {'classic': 'https://console-ondeck.eu-gb.bluemix.net','new': 'https://new-console-ondeck.eu-gb.bluemix.net',}},'dallas': {'prod': {'classic': 'https://console.ng.bluemix.net','new': 'https://new-console.ng.bluemix.net',},'stage': {'classic': 'https://console.stage1.ng.bluemix.net','new': 'https://new-console.stage1.ng.bluemix.net',},'ondeckstage': {'classic': 'https://console-ondeck.stage1.ng.bluemix.net','new': 'https://new-console-ondeck.stage1.ng.bluemix.net',},'ondeckprod': {'classic': 'https://console-ondeck.ng.bluemix.net','new': 'https://new-console-ondeck.ng.bluemix.net',}}};var currentEnv = (function envCheck() {var origin = window.location.origin;var finalObj;Object.keys(envMap).forEach(function (location) {var envArray = Object.keys(envMap[location]);envArray.forEach(function(env) {var originObj = envMap[location][env];if (origin === originObj.new || origin === originObj.classic) {finalObj = {new: originObj.new,classic: originObj.classic,current: origin,};}});});return finalObj;})();var redirect = function (env, currentEnv, nonExemptPaths) {var locationAppendages = window.location.pathname + window.location.search + window.location.hash;var addAppendages = true;var location = (env === currentEnv.new) ? currentEnv.new : currentEnv.classic;nonExemptPaths.forEach(function (item) {if (window.location.pathname.indexOf(item) !== -1) {addAppendages = false;}});window.location = (addAppendages) ? location + locationAppendages : location;};var bmCookieName = 'bm_newexperience';var cookienew = bmCookies.readCookie(bmCookieName);var classicLink = document.querySelector('.alternate-console a');var newLink = document.querySelector('.support-card.parallel-release');var nonExemptPaths = ['/dashboard', '/apps', '/account', '/services', '/containers', '/vms'];if (currentEnv) {if (currentEnv.current === currentEnv.classic) {if (cookienew === 'new') {redirect(currentEnv.new, currentEnv, nonExemptPaths);}if (classicLink) {classicLink.addEventListener('click', function(e) {e.preventDefault();bmCookies.createCookie(bmCookieName, 'new', 180);redirect(currentEnv.new, currentEnv, nonExemptPaths);});}}if (currentEnv.current === currentEnv.new) {if (newLink) {newLink.addEventListener('click', function(e) {e.preventDefault();bmCookies.createCookie(bmCookieName, 'classic', 180);redirect(currentEnv.classic, currentEnv, nonExemptPaths);});}}}})();</SCRIPT>
+<HEADER class="bx--detail-page-header--no-tabs" style="top: 50px;">
+<DIV class="bx--detail-page-header--with-tabs__breadcrumb" style="padding-bottom: 0px;"><A 
+class="bx--detail-page-header--with-tabs__link-wrapper" href="https://new-console.ng.bluemix.net/mobile/projects?back=true"><svg 
+xmlns="http://www.w3.org/2000/svg" class="bx--detail-page-header--with-tabs__arrow"><use 
+xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/mobile/projects/public/img/sprite.svg#service--back" 
+/></svg>
+<P class="bx--detail-page-header--with-tabs__breadcrumb-title" translate="editor.view.subheader_title"></P></A></DIV>
+<P class="bx--detail-page-header--no-tabs__info-title" style="margin-left: 0.5rem;"><SPAN 
+ng-bind="model.name"></SPAN></P></HEADER>
+<DIV class="appbuilder" ui-view=""></DIV>
+<SCRIPT>$(document).ready(function() {var scope = angular.element($("section[ng-controller='DashboardCtrl']")).scope();if (window.header) {header.addOrgChangedListener(function(guid, name) {window.setTimeout(function() {window.location.replace('/mobile/projects');}, 0);});window.header.addSpaceChangedListener(function(guid, name) {window.setTimeout(function() {window.location.replace('/mobile/projects');}, 0);});}});</SCRIPT>
+<!-- Load the Angular Vendor Elements -->
+<SCRIPT src=""></SCRIPT>
+
+<SCRIPT src=""></SCRIPT>
+
+<SCRIPT src=""></SCRIPT>
+
+<SCRIPT src=""></SCRIPT>
+</BODY></HTML>
